@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#user-form, #post {
+  display: none;
+}
+
+#preloading {
+    margin-top: 10px;
+    display: block
+}
+
+.arrowdown {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  justify-content: right;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
