@@ -18,6 +18,7 @@ document.querySelector("#loadPost").addEventListener("click", () => {
     .catch(e => {
         console.log(e);
         alert("Bizden kaynaklı bir hata oluştu özür dileriz");
+        document.querySelector("#ul-1").removeChild(li);
     });
     
     
@@ -60,6 +61,7 @@ document.querySelector("#loadUsers").addEventListener("click", () => {
     .catch(e => {
         console.log(e);
         alert("Bizden kaynaklı bir hata oluştu özür dileriz");
+        document.querySelector("#ul-1").removeChild(li);
     });
     
 });
